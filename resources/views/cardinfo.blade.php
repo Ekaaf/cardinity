@@ -15,7 +15,7 @@
         </div>
         <br>
         <div class="row no-gutters">
-            <input type="text" class="form-control cc-number identified visa" id="pan_number" name="pan_number" placeholder="Pan Number">
+            <input type="text" class="form-control cc-number identified" id="pan_number" name="pan_number" placeholder="Pan Number">
             @error('pan_number')
             <div class="error">{{ $message }}</div>
             @enderror
